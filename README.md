@@ -5,7 +5,7 @@
 [![Power BI](https://img.shields.io/badge/Power%20BI-Desktop%20%7C%20Service-F2C811?logo=powerbi&logoColor=black)](#power-bi-reporting-architecture)
 [![DAX](https://img.shields.io/badge/DAX-25%2B%20Measures-green.svg)](#dax-measures-library)
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white)](scripts/generate_dataset.py)
-[![Interactive Dashboard](https://img.shields.io/badge/Live%20Dashboard-HTML5%20%7C%20Chart.js-teal.svg)](dashboard/index.html)
+[![Interactive Dashboard](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-teal.svg)](https://myselfpalak.github.io/retail-sales-profitability-analytics/)
 
 > **End-to-End Business Intelligence & Profitability Diagnostic Portfolio Project**  
 > An enterprise-grade analytics project evaluating **\$5.89M in retail revenue** across **9,994 transactions** over 4 fiscal years. Built with Kimball Star Schema dimensional modeling, advanced SQL window functions, 25+ DAX measures, interactive Power BI reporting, and strategic C-suite business recommendations.

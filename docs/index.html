@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Retail Sales & Profitability Analytics | Interactive Executive Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- Chart.js via CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="dashboard-container">
+    
+    <!-- Header Banner -->
+    <header class="header-banner">
+      <div class="header-title">
+        <h1>Retail Sales & Profitability Analytics</h1>
+        <p>Enterprise BI Dashboard • Dimensional Star Schema • DAX Intelligence • Root-Cause Strategy</p>
+      </div>
+      <div class="header-badges">
+        <span class="badge badge-blue">SQL / Star Schema</span>
+        <span class="badge badge-green">Power BI / DAX</span>
+        <span class="badge badge-amber">Executive Strategy</span>
+      </div>
+    </header>
+
+    <!-- Interactive Filters Bar -->
+    <section class="filter-bar">
+      <div class="filter-group">
+        <label for="filter-year">Fiscal Year:</label>
+        <select id="filter-year">
+          <option value="ALL">All Years (2021 - 2024)</option>
+          <option value="2021">2021</option>
+          <option value="2022">2022</option>
+          <option value="2023">2023</option>
+          <option value="2024">2024</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filter-region">Region:</label>
+        <select id="filter-region">
+          <option value="ALL">All Regions</option>
+          <option value="West">West</option>
+          <option value="East">East</option>
+          <option value="Central">Central (High Alert)</option>
+          <option value="South">South</option>
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label for="filter-category">Category:</label>
+        <select id="filter-category">
+          <option value="ALL">All Categories</option>
+          <option value="Technology">Technology</option>
+          <option value="Office Supplies">Office Supplies</option>
+          <option value="Furniture">Furniture</option>
+        </select>
+      </div>
+
+      <button id="btn-reset" class="btn-reset">Reset Filters</button>
+    </section>
+
+    <!-- Primary Executive KPI Cards Grid -->
+    <section class="kpi-grid">
+      <div class="kpi-card">
+        <span class="kpi-label">Total Net Revenue</span>
+        <div id="kpi-sales" class="kpi-value text-blue">$5,892,311</div>
+        <div class="kpi-subtext text-green">▲ 22.4% Annualized Growth</div>
+      </div>
+
+      <div class="kpi-card">
+        <span class="kpi-label">Total Net Profit</span>
+        <div id="kpi-profit" class="kpi-value text-green">$647,593</div>
+        <div class="kpi-subtext text-green">▲ 18.2% Year-over-Year</div>
+      </div>
+
+      <div class="kpi-card">
+        <span class="kpi-label">Profit Margin %</span>
+        <div id="kpi-margin" class="kpi-value text-emerald">10.99%</div>
+        <div class="kpi-subtext text-amber">Target: 15.00% (4.01% Gap)</div>
+      </div>
+
+      <div class="kpi-card">
+        <span class="kpi-label">Total Transactions</span>
+        <div id="kpi-orders" class="kpi-value">9,994</div>
+        <div class="kpi-subtext">Avg Order Value: $589.58</div>
+      </div>
+
+      <div class="kpi-card">
+        <span class="kpi-label">Avg Discount Rate</span>
+        <div id="kpi-discount" class="kpi-value text-amber">14.3%</div>
+        <div class="kpi-subtext text-red">18.6% in Loss-making orders</div>
+      </div>
+    </section>
+
+    <!-- Visual Charts Row 1 -->
+    <section class="charts-grid-2col">
+      <!-- Chart 1: Monthly Trajectory -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <div class="chart-title">
+            <h3>Revenue & Profit Monthly Trend</h3>
+            <p>Seasonality surges in Q4 (Nov-Dec holiday peaks)</p>
+          </div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chart-monthly"></canvas>
+        </div>
+      </div>
+
+      <!-- Chart 2: Category Breakdown -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <div class="chart-title">
+            <h3>Category Revenue & Margin Split</h3>
+            <p>Technology leads profit; Furniture suffers low margins</p>
+          </div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chart-category"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Visual Charts Row 2 -->
+    <section class="charts-grid-2col">
+      <!-- Chart 3: Sub-Category Profit Spectrum -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <div class="chart-title">
+            <h3>Sub-Category Profitability Spectrum</h3>
+            <p>Highlights value drivers vs margin drainers (Tables, Supplies)</p>
+          </div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chart-subcategory"></canvas>
+        </div>
+      </div>
+
+      <!-- Chart 4: Regional Performance Scorecard -->
+      <div class="chart-card">
+        <div class="chart-header">
+          <div class="chart-title">
+            <h3>Regional Performance & Margin Drain</h3>
+            <p>Central region underperforms due to aggressive discounting</p>
+          </div>
+        </div>
+        <div class="chart-wrapper">
+          <canvas id="chart-regional"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Discount Sensitivity Diagnostic -->
+    <section class="chart-card">
+      <div class="chart-header">
+        <div class="chart-title">
+          <h3>Discount Sensitivity & Profit Elasticity Analysis</h3>
+          <p>Tipping Point: Profitability turns negative once discounts exceed 25%</p>
+        </div>
+      </div>
+      <div class="chart-wrapper" style="height: 260px;">
+        <canvas id="chart-discount"></canvas>
+      </div>
+    </section>
+
+    <!-- Strategic Executive Recommendations Banner -->
+    <section class="recommendations-banner">
+      <div class="recom-header">
+        <h2>Strategic Business Recommendations & Action Plan</h2>
+      </div>
+      <div class="recom-grid">
+        <div class="recom-card">
+          <h4>1. Implement Strict Discount Caps on Furniture</h4>
+          <p>
+            <strong>Problem:</strong> Subcategories like <em>Tables</em> and <em>Bookcases</em> have average discounts of 22-28%, causing severe negative margins (-12.4%).<br />
+            <strong>Action:</strong> Cap promotional discounts on Tables to a maximum of 15% and mandate manager approval for bulk corporate pricing.
+          </p>
+        </div>
+
+        <div class="recom-card">
+          <h4>2. Restructure Central Region Sales Incentives</h4>
+          <p>
+            <strong>Problem:</strong> Central region (Texas & Illinois) delivers 52% lower margins than the West/East due to sales reps utilizing deep clearance discounts to hit volume targets.<br />
+            <strong>Action:</strong> Shift sales compensation from gross revenue to net contribution margin.
+          </p>
+        </div>
+
+        <div class="recom-card">
+          <h4>3. High-Margin Bundling & Cross-Selling</h4>
+          <p>
+            <strong>Problem:</strong> Standalone hardware and furniture orders incur high freight overhead.<br />
+            <strong>Action:</strong> Bundle loss-leading furniture items with high-margin Technology Accessories (38% margin) and Office Supplies (32% margin) to preserve basket profitability.
+          </p>
+        </div>
+
+        <div class="recom-card">
+          <h4>4. Financial Impact Projection: +$48,500 Uplift</h4>
+          <p>
+            <strong>Simulation:</strong> Restricting maximum discounts to 20% across all product lines recovers <strong>+$48,500 in net profit</strong> annually while maintaining 96% of order volume.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subcategory Data Table -->
+    <section class="table-card">
+      <div class="chart-header">
+        <div class="chart-title">
+          <h3>Sub-Category Performance Diagnostic Table</h3>
+          <p>Complete operational breakdown sorted by total revenue</p>
+        </div>
+      </div>
+      <table class="custom-table">
+        <thead>
+          <tr>
+            <th>Sub-Category</th>
+            <th>Category</th>
+            <th>Revenue</th>
+            <th>Net Profit</th>
+            <th>Margin %</th>
+            <th>Avg Discount</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+          <!-- Dynamically populated by app.js -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Project 2: Retail Sales & Profitability Analytics • Developed for Data Analyst / BI Portfolio • Built with SQL, Power BI, DAX & Chart.js</p>
+    </footer>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
