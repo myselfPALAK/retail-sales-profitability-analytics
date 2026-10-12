@@ -300,7 +300,7 @@ retail-sales-profitability-analytics/
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/retail-sales-profitability-analytics.git
+git clone https://github.com/myselfPALAK/retail-sales-profitability-analytics.git
 cd retail-sales-profitability-analytics
 ```
 
