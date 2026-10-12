@@ -1,0 +1,85 @@
+// ============================================================================
+// Power BI DAX Measures Library
+// File: 02_time_intelligence.dax
+// Table Home: _Measures_TimeIntelligence
+// Description: Period-over-period and cumulative calendar intelligence measures
+// Note: Requires relationship between Fact_Sales[OrderDateKey] and Dim_Date[DateKey]
+// ============================================================================
+
+// --- 1. Year-to-Date (YTD) ---
+Sales YTD = 
+TOTALYTD(
+    [Total Sales],
+    Dim_Date[FullDate]
+)
+
+Profit YTD = 
+TOTALYTD(
+    [Total Profit],
+    Dim_Date[FullDate]
+)
+
+Margin % YTD = 
+DIVIDE([Profit YTD], [Sales YTD], 0)
+
+// --- 2. Month-to-Date (MTD) & Quarter-to-Date (QTD) ---
+Sales MTD = 
+TOTALMTD(
+    [Total Sales],
+    Dim_Date[FullDate]
+)
+
+Sales QTD = 
+TOTALQTD(
+    [Total Sales],
+    Dim_Date[FullDate]
+)
+
+// --- 3. Prior Year & Same Period Last Year (SPLY) ---
+Sales Prior Year (SPLY) = 
+CALCULATE(
+    [Total Sales],
+    SAMEPERIODLASTYEAR(Dim_Date[FullDate])
+)
+
+Profit Prior Year (SPLY) = 
+CALCULATE(
+    [Total Profit],
+    SAMEPERIODLASTYEAR(Dim_Date[FullDate])
+)
+
+// --- 4. Year-over-Year (YoY) Growth Metrics ---
+YoY Sales Growth $ = 
+[Total Sales] - [Sales Prior Year (SPLY)]
+
+YoY Sales Growth % = 
+DIVIDE([YoY Sales Growth $], [Sales Prior Year (SPLY)], 0)
+
+YoY Profit Growth $ = 
+[Total Profit] - [Profit Prior Year (SPLY)]
+
+YoY Profit Growth % = 
+DIVIDE([YoY Profit Growth $], ABS([Profit Prior Year (SPLY)]), 0)
+
+// --- 5. Month-over-Month (MoM) Growth ---
+Sales Previous Month = 
+CALCULATE(
+    [Total Sales],
+    PREVIOUSMONTH(Dim_Date[FullDate])
+)
+
+MoM Sales Growth % = 
+DIVIDE(
+    [Total Sales] - [Sales Previous Month],
+    [Sales Previous Month],
+    0
+)
+
+// --- 6. 3-Month Rolling Moving Average ---
+Rolling 3-Month Sales = 
+CALCULATE(
+    AVERAGEX(
+        DATESINPERIOD(Dim_Date[FullDate], MAX(Dim_Date[FullDate]), -3, MONTH),
+        [Total Sales]
+    )
+)

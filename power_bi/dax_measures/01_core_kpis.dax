@@ -1,0 +1,52 @@
+// ============================================================================
+// Power BI DAX Measures Library
+// File: 01_core_kpis.dax
+// Table Home: _Measures_Core
+// Description: Foundation financial, operational, and volume measures
+// ============================================================================
+
+// --- 1. Revenue & Sales ---
+Total Sales = 
+SUM(Fact_Sales[Sales])
+
+Total Cost = 
+SUMX(
+    Fact_Sales,
+    Fact_Sales[Sales] - Fact_Sales[Profit]
+)
+
+Total Profit = 
+SUM(Fact_Sales[Profit])
+
+// --- 2. Margins & Profitability ---
+Profit Margin % = 
+DIVIDE([Total Profit], [Total Sales], 0)
+
+Markup % = 
+DIVIDE([Total Profit], [Total Cost], 0)
+
+// --- 3. Volumes & Counts ---
+Total Orders = 
+DISTINCTCOUNT(Fact_Sales[OrderID])
+
+Total Units Sold = 
+SUM(Fact_Sales[Quantity])
+
+Total Customers = 
+DISTINCTCOUNT(Fact_Sales[CustomerKey])
+
+Total Products Sold = 
+DISTINCTCOUNT(Fact_Sales[ProductKey])
+
+// --- 4. Averages & Basket Size ---
+Average Order Value (AOV) = 
+DIVIDE([Total Sales], [Total Orders], 0)
+
+Average Units Per Order = 
+DIVIDE([Total Units Sold], [Total Orders], 0)
+
+Average Revenue Per Customer = 
+DIVIDE([Total Sales], [Total Customers], 0)
+
+Average Discount % = 
+AVERAGE(Fact_Sales[Discount])

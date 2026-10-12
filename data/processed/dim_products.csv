@@ -1,0 +1,75 @@
+ProductKey,ProductID,Category,SubCategory,ProductName
+1,FUR-BO-10001,Furniture,Bookcases,Dania Classic Library Bookcase
+2,FUR-BO-10002,Furniture,Bookcases,Bush Somerset Collection Bookcase
+3,FUR-BO-10003,Furniture,Bookcases,O'Sullivan 2-Shelf Heavy-Duty Bookcase
+4,FUR-BO-10004,Furniture,Bookcases,Atlantic Mobile Bookcase with Casters
+5,FUR-BO-10005,Furniture,Bookcases,Sauder Inglewood Collection 4-Shelf Bookcase
+6,FUR-CH-10006,Furniture,Chairs,Hon Deluxe Fabric Task Chair
+7,FUR-CH-10007,Furniture,Chairs,Novimex Swivel Arm Chair
+8,FUR-CH-10008,Furniture,Chairs,Global High-Back Executive Leather Chair
+9,FUR-CH-10009,Furniture,Chairs,Harbour Creations Ergonomic Desk Chair
+10,FUR-CH-10010,Furniture,Chairs,Office Star Executive Eco-Leather Chair
+11,FUR-FU-10011,Furniture,Furnishings,Eldon Expressions Desk Accessories
+12,FUR-FU-10012,Furniture,Furnishings,Howard Miller 13-Inch Wall Clock
+13,FUR-FU-10013,Furniture,Furnishings,Tenex Traditional Chairmats
+14,FUR-FU-10014,Furniture,Furnishings,Deflect-o RollaMat Clear Vinyl Mat
+15,FUR-FU-10015,Furniture,Furnishings,Executive High-Gloss Wastebasket
+16,FUR-TA-10016,Furniture,Tables,Chromcraft Rectangular Conference Table
+17,FUR-TA-10017,Furniture,Tables,Bevis 36 x 72 Round Training Table
+18,FUR-TA-10018,Furniture,Tables,Balt Split-Level Drafting Table
+19,FUR-TA-10019,Furniture,Tables,Hon 4060 Series Modular Workstation Table
+20,FUR-TA-10020,Furniture,Tables,Lesro Kingston Series End Table
+21,OFF-AP-10021,Office Supplies,Appliances,Hamilton Beach Toaster 4-Slice
+22,OFF-AP-10022,Office Supplies,Appliances,Cuisinart Countertop Microwave Oven
+23,OFF-AP-10023,Office Supplies,Appliances,Fellowes Quiet Air Purifier
+24,OFF-AP-10024,Office Supplies,Appliances,Honeywell True HEPA Tower Air Cleaner
+25,OFF-AP-10025,Office Supplies,Appliances,Avanti 1.7 cu. ft. Compact Refrigerator
+26,OFF-AR-10026,Office Supplies,Art,Newell 300 Series Colored Pencils (36-pack)
+27,OFF-AR-10027,Office Supplies,Art,Prang Dustless White Chalk
+28,OFF-AR-10028,Office Supplies,Art,Bostitch Heavy Duty Electric Pencil Sharpener
+29,OFF-AR-10029,Office Supplies,Art,Hunt Boston School Pro Pencil Sharpener
+30,OFF-AR-10030,Office Supplies,Art,Sanford Liquid Accent Highlighters (12-pack)
+31,OFF-BI-10031,Office Supplies,Binders,"Avery Heavy-Duty View Binder, 2-Inch"
+32,OFF-BI-10032,Office Supplies,Binders,Wilson Jones Ledger Heavy Duty Binder
+33,OFF-BI-10033,Office Supplies,Binders,GBC DocuBind P400 Binding Machine
+34,OFF-BI-10034,Office Supplies,Binders,Fellowes Binding Spines (Pack of 100)
+35,OFF-BI-10035,Office Supplies,Binders,Acco Pressboard Ring Binder with Tyvek Hinge
+36,OFF-EN-10036,Office Supplies,Envelopes,Quality Park #10 Self-Seal Security Envelopes
+37,OFF-EN-10037,Office Supplies,Envelopes,Mead Clasp Envelopes 9x12
+38,OFF-EN-10038,Office Supplies,Envelopes,Tyvek Heavy Duty Padded Envelopes
+39,OFF-FA-10039,Office Supplies,Fasteners,Advantus Push Pins with Clear Heads
+40,OFF-FA-10040,Office Supplies,Fasteners,Acco Banker's Clasp Clips (100-pack)
+41,OFF-FA-10041,Office Supplies,Fasteners,Staples Stainless Steel Paper Clips
+42,OFF-LA-10042,Office Supplies,Labels,"Avery 5160 Laser Address Labels (3,000 count)"
+43,OFF-LA-10043,Office Supplies,Labels,Dymo LabelWriter Self-Adhesive Shipping Labels
+44,OFF-LA-10044,Office Supplies,Labels,Avery Color-Coding Labels 3/4-inch
+45,OFF-PA-10045,Office Supplies,Paper,Hammermill Ultra Premium Laser Paper (500 sheets)
+46,OFF-PA-10046,Office Supplies,Paper,Xerox 4200 Multi-Use Copy Paper (Case)
+47,OFF-PA-10047,Office Supplies,Paper,Southworth 25% Cotton Resume Paper
+48,OFF-PA-10048,Office Supplies,Paper,Ampad Evidence Recycled Writing Pads (12-pack)
+49,OFF-ST-10049,Office Supplies,Storage,Fellowes Bankers Box Heavy-Duty Storage Box
+50,OFF-ST-10050,Office Supplies,Storage,Sterilite 3-Drawer Desktop Organizer
+51,OFF-ST-10051,Office Supplies,Storage,Tennsco Industrial Steel Storage Cabinet
+52,OFF-ST-10052,Office Supplies,Storage,Iris Plastic Stackable Craft Storage Cart
+53,OFF-SU-10053,Office Supplies,Supplies,Fiskars 8-Inch Commercial Scissors
+54,OFF-SU-10054,Office Supplies,Supplies,Acme Stainless Steel Utility Shears
+55,OFF-SU-10055,Office Supplies,Supplies,Martin Yale Heavy-Duty Guillotine Paper Trimmer
+56,OFF-SU-10056,Office Supplies,Supplies,Stabila Heavy Duty Utility Box Cutter Blades
+57,TEC-AC-10057,Technology,Accessories,Logitech MX Master 3S Wireless Mouse
+58,TEC-AC-10058,Technology,Accessories,Anker 737 Power Bank (PowerCore 24K)
+59,TEC-AC-10059,Technology,Accessories,SanDisk Extreme Portable 1TB SSD
+60,TEC-AC-10060,Technology,Accessories,Plantronics Voyager 5200 Bluetooth Headset
+61,TEC-AC-10061,Technology,Accessories,Belkin 12-Outlet Surge Protector with USB
+62,TEC-CO-10062,Technology,Copiers,Canon imageCLASS D1620 Multifunction Copier
+63,TEC-CO-10063,Technology,Copiers,Hewlett-Packard LaserJet Enterprise Copier
+64,TEC-CO-10064,Technology,Copiers,Brother Monochrome Laser Multi-Function Copier
+65,TEC-CO-10065,Technology,Copiers,Sharp AL-1530CS Digital Desktop Copier
+66,TEC-MA-10066,Technology,Machines,Epson WorkForce Pro Color Document Scanner
+67,TEC-MA-10067,Technology,Machines,Zebra ZP450 Thermal Label Barcode Printer
+68,TEC-MA-10068,Technology,Machines,Konica Minolta Magicolor Laser Printer
+69,TEC-MA-10069,Technology,Machines,Star Micronics TSP143 Thermal Receipt Printer
+70,TEC-PH-10070,Technology,Phones,Cisco 8845 IP Business Video Desk Phone
+71,TEC-PH-10071,Technology,Phones,Polycom SoundPoint Pro SE-225 Conference Phone
+72,TEC-PH-10072,Technology,Phones,Grandstream GXP2170 Enterprise IP Phone
+73,TEC-PH-10073,Technology,Phones,Yealink SIP-T54W Prime Business Phone
+74,TEC-PH-10074,Technology,Phones,Panasonic DECT 6.0 Expandable Cordless System

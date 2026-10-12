@@ -1,0 +1,95 @@
+// ============================================================================
+// Power BI DAX Measures Library
+// File: 03_profitability_diagnostics.dax
+// Table Home: _Measures_Diagnostics
+// Description: Uncovers negative-margin transactions, discount leakage, and risks
+// ============================================================================
+
+// --- 1. Loss-Making Diagnostics ---
+Loss Making Transactions = 
+CALCULATE(
+    COUNTROWS(Fact_Sales),
+    Fact_Sales[Profit] < 0
+)
+
+Loss Making Orders Ratio % = 
+DIVIDE(
+    [Loss Making Transactions],
+    COUNTROWS(Fact_Sales),
+    0
+)
+
+Total Net Losses = 
+CALCULATE(
+    SUM(Fact_Sales[Profit]),
+    Fact_Sales[Profit] < 0
+)
+
+Loss Making Revenue = 
+CALCULATE(
+    SUM(Fact_Sales[Sales]),
+    Fact_Sales[Profit] < 0
+)
+
+Loss Making Revenue Share % = 
+DIVIDE(
+    [Loss Making Revenue],
+    [Total Sales],
+    0
+)
+
+// --- 2. Profitable Core ---
+Profitable Transactions = 
+CALCULATE(
+    COUNTROWS(Fact_Sales),
+    Fact_Sales[Profit] >= 0
+)
+
+Gross Profit Without Losses = 
+CALCULATE(
+    SUM(Fact_Sales[Profit]),
+    Fact_Sales[Profit] >= 0
+)
+
+Potential Profit Margin % (No Losses) = 
+DIVIDE(
+    [Gross Profit Without Losses],
+    [Total Sales],
+    0
+)
+
+// --- 3. Discount Sensitivity & Exposure ---
+High Discount Transactions Count = 
+CALCULATE(
+    COUNTROWS(Fact_Sales),
+    Fact_Sales[Discount] > 0.20
+)
+
+High Discount Transactions Share % = 
+DIVIDE(
+    [High Discount Transactions Count],
+    COUNTROWS(Fact_Sales),
+    0
+)
+
+High Discount Sales = 
+CALCULATE(
+    SUM(Fact_Sales[Sales]),
+    Fact_Sales[Discount] > 0.20
+)
+
+High Discount Profit = 
+CALCULATE(
+    SUM(Fact_Sales[Profit]),
+    Fact_Sales[Discount] > 0.20
+)
+
+High Discount Profit Margin % = 
+DIVIDE([High Discount Profit], [High Discount Sales], 0)
+
+// Estimated Gross Discount Dollars Given
+Total Discount Dollars Given = 
+SUMX(
+    Fact_Sales,
+    Fact_Sales[Sales] / (1 - Fact_Sales[Discount]) * Fact_Sales[Discount]
+)

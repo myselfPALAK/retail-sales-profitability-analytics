@@ -1,0 +1,66 @@
+GeographyKey,Country,Region,State,City,PostalCode
+1,United States,West,California,Los Angeles,90036
+2,United States,West,California,San Francisco,94109
+3,United States,West,California,San Diego,92104
+4,United States,West,California,San Jose,95123
+5,United States,West,California,Sacramento,95823
+6,United States,West,Washington,Seattle,98105
+7,United States,West,Washington,Spokane,99207
+8,United States,West,Washington,Tacoma,98405
+9,United States,West,Oregon,Portland,97206
+10,United States,West,Oregon,Eugene,97402
+11,United States,West,Oregon,Salem,97301
+12,United States,West,Arizona,Phoenix,85032
+13,United States,West,Arizona,Tucson,85705
+14,United States,West,Arizona,Mesa,85204
+15,United States,West,Colorado,Denver,80219
+16,United States,West,Colorado,Colorado Springs,80918
+17,United States,West,Colorado,Aurora,80013
+18,United States,East,New York,New York City,10024
+19,United States,East,New York,Buffalo,14215
+20,United States,East,New York,Rochester,14609
+21,United States,East,Pennsylvania,Philadelphia,19120
+22,United States,East,Pennsylvania,Pittsburgh,15213
+23,United States,East,Pennsylvania,Allentown,18102
+24,United States,East,Massachusetts,Boston,02124
+25,United States,East,Massachusetts,Worcester,01604
+26,United States,East,Massachusetts,Springfield,01109
+27,United States,East,New Jersey,Newark,07104
+28,United States,East,New Jersey,Jersey City,07305
+29,United States,East,New Jersey,Paterson,07501
+30,United States,East,Ohio,Columbus,43229
+31,United States,East,Ohio,Cleveland,44105
+32,United States,East,Ohio,Cincinnati,45211
+33,United States,Central,Texas,Houston,77070
+34,United States,Central,Texas,Dallas,75217
+35,United States,Central,Texas,Austin,78745
+36,United States,Central,Texas,San Antonio,78228
+37,United States,Central,Texas,Fort Worth,76106
+38,United States,Central,Illinois,Chicago,60623
+39,United States,Central,Illinois,Aurora,60505
+40,United States,Central,Illinois,Naperville,60540
+41,United States,Central,Michigan,Detroit,48227
+42,United States,Central,Michigan,Grand Rapids,49503
+43,United States,Central,Michigan,Warren,48089
+44,United States,Central,Wisconsin,Milwaukee,53209
+45,United States,Central,Wisconsin,Madison,53711
+46,United States,Central,Wisconsin,Green Bay,54302
+47,United States,Central,Indiana,Indianapolis,46227
+48,United States,Central,Indiana,Fort Wayne,46804
+49,United States,Central,Indiana,Evansville,47711
+50,United States,South,Florida,Jacksonville,32210
+51,United States,South,Florida,Miami,33125
+52,United States,South,Florida,Tampa,33612
+53,United States,South,Florida,Orlando,32808
+54,United States,South,North Carolina,Charlotte,28205
+55,United States,South,North Carolina,Raleigh,27610
+56,United States,South,North Carolina,Greensboro,27405
+57,United States,South,Georgia,Atlanta,30318
+58,United States,South,Georgia,Augusta,30906
+59,United States,South,Georgia,Savannah,31405
+60,United States,South,Virginia,Virginia Beach,23464
+61,United States,South,Virginia,Norfolk,23503
+62,United States,South,Virginia,Richmond,23223
+63,United States,South,Tennessee,Memphis,38109
+64,United States,South,Tennessee,Nashville,37211
+65,United States,South,Tennessee,Knoxville,37918

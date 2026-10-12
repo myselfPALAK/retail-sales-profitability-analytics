@@ -1,0 +1,75 @@
+// ============================================================================
+// Power BI DAX Measures Library
+// File: 04_dynamic_rankings.dax
+// Table Home: _Measures_RankingsAndPareto
+// Description: Dynamic ranking, Pareto distribution, and conditional formatting
+// ============================================================================
+
+// --- 1. Dynamic Product Ranking ---
+Product Sales Rank = 
+RANKX(
+    ALLSELECTED(Dim_Product[ProductName]),
+    [Total Sales],
+    ,
+    DESC,
+    Dense
+)
+
+Product Profit Rank = 
+RANKX(
+    ALLSELECTED(Dim_Product[ProductName]),
+    [Total Profit],
+    ,
+    DESC,
+    Dense
+)
+
+SubCategory Profit Rank = 
+RANKX(
+    ALLSELECTED(Dim_Product[SubCategory]),
+    [Total Profit],
+    ,
+    DESC,
+    Dense
+)
+
+// --- 2. Dynamic Pareto 80/20 Analysis ---
+Cumulative Sales Running Total = 
+VAR CurrentSales = [Total Sales]
+VAR ProductSummary = 
+    ADDCOLUMNS(
+        ALLSELECTED(Dim_Product[ProductName]),
+        "@Sales", [Total Sales]
+    )
+RETURN
+SUMX(
+    FILTER(ProductSummary, [@Sales] >= CurrentSales),
+    [@Sales]
+)
+
+Cumulative Sales % = 
+DIVIDE([Cumulative Sales Running Total], CALCULATE([Total Sales], ALLSELECTED(Dim_Product)), 0)
+
+Pareto Product Classification = 
+IF(
+    [Cumulative Sales %] <= 0.80,
+    "Top 80% Revenue (Vital Few)",
+    "Bottom 20% Revenue (Trivial Many)"
+)
+
+// --- 3. Conditional Formatting & KPI Colors ---
+Margin KPI Status Color = 
+SWITCH(
+    TRUE(),
+    [Profit Margin %] >= 0.15, "#10B981",  // Green: Healthy margin >= 15%
+    [Profit Margin %] >= 0.05, "#F59E0B",  // Amber: Thin margin 5% - 15%
+    [Profit Margin %] >= 0.00, "#EF4444",  // Red: Critical low margin 0% - 5%
+    "#991B1B"                             // Dark Red: Severe Loss < 0%
+)
+
+Regional Profit Alert = 
+IF(
+    [Profit Margin %] < 0.08,
+    "⚠️ Regional Margin Warning",
+    "✓ Target Achieved"
+)

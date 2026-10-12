@@ -1,0 +1,794 @@
+CustomerKey,CustomerID,CustomerName,Segment
+1,BEBL-10001,Betty Black,Consumer
+2,STSM-10002,Steven Smith,Consumer
+3,STDO-10003,Steven Donatelli,Corporate
+4,NASA-10004,Nancy Savely,Corporate
+5,ANHO-10005,Andrew Hoffman,Consumer
+6,LIMO-10006,Linda Moore,Corporate
+7,DACO-10007,Daniel Connell,Corporate
+8,SAMA-10008,Sandra Martin,Consumer
+9,JOTH-10009,Joseph Thompson,Consumer
+10,CLHO-10010,Claire Hoffmann,Corporate
+11,PAWI-10011,Patricia Williams,Consumer
+12,KIMI-10012,Kimberly Miller,Consumer
+13,WIDO-10013,William Donatelli,Consumer
+14,MIWH-10014,Michael White,Consumer
+15,ANAN-10015,Andrew Anderson,Corporate
+16,WISA-10016,William Savely,Corporate
+17,BEHA-10017,Betty Harris,Home Office
+18,BAPE-10018,Barbara Perez,Consumer
+19,PEAL-10019,Pete Allen,Corporate
+20,MASA-10020,Maria Savely,Home Office
+21,ZUMA-10021,Zuschuss Martinez,Consumer
+22,BERO-10022,Betty Rodriguez,Consumer
+23,MIHA-10023,Michael Hara,Corporate
+24,SALE-10024,Sandra Lewis,Corporate
+25,MASA-10025,Margaret Sanchez,Consumer
+26,ASSM-10026,Ashley Smith,Consumer
+27,WIWI-10027,William Williams,Home Office
+28,BERO-10028,Betty Robinson,Corporate
+29,MAGA-10029,Mark Garcia,Home Office
+30,HACA-10030,Harold Cacioppo,Home Office
+31,JAHE-10031,James Hernandez,Consumer
+32,GEPE-10032,Gene Perez,Home Office
+33,JAHA-10033,James Hara,Corporate
+34,ELCL-10034,Elizabeth Clark,Consumer
+35,KAFL-10035,Karen Flanagan,Consumer
+36,DAMA-10036,Daniel Martin,Consumer
+37,MAGO-10037,Matthew Gonzalez,Home Office
+38,ELRO-10038,Elizabeth Rodriguez,Consumer
+39,SAMO-10039,Sandra Moore,Consumer
+40,KIPA-10040,Kimberly Pawlan,Home Office
+41,EMSA-10041,Emily Sanchez,Consumer
+42,MAGO-10042,Mark Gonzalez,Corporate
+43,WIMA-10043,William Martinez,Corporate
+44,JEJA-10044,Jessica Jackson,Consumer
+45,DAGU-10045,Daniel Gute,Corporate
+46,KELE-10046,Ken Lewis,Home Office
+47,KIWI-10047,Kimberly Williams,Corporate
+48,PABL-10048,Patricia Black,Consumer
+49,ERAN-10049,Eric Anderson,Consumer
+50,ASJO-10050,Ashley Johnson,Home Office
+51,KIBL-10051,Kimberly Blumstein,Consumer
+52,ZUSA-10052,Zuschuss Sanchez,Consumer
+53,BEMO-10053,Betty Moore,Corporate
+54,EMRO-10054,Emily Rodriguez,Corporate
+55,NAJA-10055,Nancy Jackson,Home Office
+56,MAGA-10056,Margaret Garcia,Consumer
+57,KERO-10057,Ken Rodriguez,Home Office
+58,ROSM-10058,Robert Smith,Consumer
+59,LISA-10059,Lisa Savely,Consumer
+60,SAKI-10060,Sarah Kint,Home Office
+61,NAFL-10061,Nancy Flanagan,Consumer
+62,THLE-10062,Thomas Lee,Consumer
+63,CHWH-10063,Christopher White,Consumer
+64,GEMA-10064,Gene Martin,Corporate
+65,SACO-10065,Sandra Connell,Corporate
+66,ELRA-10066,Elizabeth Ramirez,Corporate
+67,JOJA-10067,Joseph Jackson,Consumer
+68,DACA-10068,David Cacioppo,Consumer
+69,BRTH-10069,Brosina Thompson,Corporate
+70,MACA-10070,Matthew Cacioppo,Consumer
+71,PASA-10071,Paul Sanchez,Consumer
+72,PEAL-10072,Pete Allen,Home Office
+73,PEMO-10073,Pete Moore,Consumer
+74,DOTA-10074,Dorothy Taylor,Consumer
+75,SAPE-10075,Sandra Perez,Corporate
+76,DATH-10076,David Thomas,Corporate
+77,MADO-10077,Matt Donatelli,Consumer
+78,SUDA-10078,Susan Davis,Consumer
+79,JEPA-10079,Jessica Pawlan,Corporate
+80,DODO-10080,Donald Donatelli,Consumer
+81,ASMI-10081,Ashley Miller,Corporate
+82,ZUSM-10082,Zuschuss Smith,Consumer
+83,NAWI-10083,Nancy Wilson,Consumer
+84,TRWI-10084,Tracy Williams,Consumer
+85,PEWI-10085,Pete Wilson,Corporate
+86,DADO-10086,Daniel Donatelli,Consumer
+87,NAGU-10087,Nancy Gute,Home Office
+88,KISM-10088,Kimberly Smith,Consumer
+89,SATH-10089,Sarah Thomas,Consumer
+90,ELPA-10090,Elizabeth Pawlan,Consumer
+91,CLMA-10091,Claire Martinez,Consumer
+92,JEBR-10092,Jessica Brown,Consumer
+93,ASLE-10093,Ashley Lee,Corporate
+94,SAPH-10094,Sarah Phan,Consumer
+95,GEPA-10095,Gene Pawlan,Corporate
+96,NAPA-10096,Nancy Pawlan,Corporate
+97,HAPA-10097,Harold Pawlan,Corporate
+98,CHJA-10098,Charles Jackson,Consumer
+99,CHSA-10099,Charles Savely,Home Office
+100,PEWH-10100,Pete White,Consumer
+101,DAHE-10101,David Hernandez,Consumer
+102,LISM-10102,Lisa Smith,Corporate
+103,ANHA-10103,Andrew Harris,Consumer
+104,DOTH-10104,Dorothy Thompson,Corporate
+105,JAJO-10105,James Johnson,Consumer
+106,PAGA-10106,Paul Garcia,Consumer
+107,ELFL-10107,Elizabeth Flanagan,Corporate
+108,ROAN-10108,Robert Anderson,Consumer
+109,KIKI-10109,Kimberly Kint,Consumer
+110,ANPE-10110,Anthony Perez,Home Office
+111,PEMA-10111,Pete Martin,Consumer
+112,KAFL-10112,Karen Flanagan,Home Office
+113,PESM-10113,Pete Smith,Consumer
+114,ERWI-10114,Eric Wilson,Home Office
+115,PAJO-10115,Paul Jones,Corporate
+116,DOJA-10116,Donald Jackson,Consumer
+117,DAJO-10117,Daniel Jones,Home Office
+118,ZUFL-10118,Zuschuss Flanagan,Consumer
+119,ZULE-10119,Zuschuss Lee,Consumer
+120,MAWH-10120,Maria White,Consumer
+121,PAHA-10121,Patricia Hara,Corporate
+122,KAMO-10122,Karen Moore,Consumer
+123,HASA-10123,Harold Savely,Corporate
+124,STAL-10124,Steven Allen,Consumer
+125,SASA-10125,Sandra Sanchez,Home Office
+126,ERWI-10126,Eric Wilson,Corporate
+127,SULE-10127,Susan Lee,Consumer
+128,PERO-10128,Pete Robinson,Home Office
+129,NAAL-10129,Nancy Allen,Home Office
+130,MALE-10130,Matthew Lee,Consumer
+131,SAAL-10131,Sandra Allen,Consumer
+132,ANDA-10132,Andrew Davis,Consumer
+133,DARA-10133,David Ramirez,Consumer
+134,DALO-10134,Daniel Lopez,Home Office
+135,STPH-10135,Steven Phan,Home Office
+136,DAHO-10136,David Hoffmann,Home Office
+137,TRLO-10137,Tracy Lopez,Consumer
+138,STMI-10138,Steven Miller,Corporate
+139,RIRA-10139,Richard Ramirez,Home Office
+140,DAWI-10140,David Williams,Consumer
+141,SADO-10141,Sandra Donatelli,Consumer
+142,ANTH-10142,Andrew Thomas,Consumer
+143,JEDA-10143,Jessica Davis,Consumer
+144,LICA-10144,Linda Cacioppo,Consumer
+145,MAHE-10145,Matt Hernandez,Consumer
+146,PEWI-10146,Pete Williams,Consumer
+147,CHHE-10147,Charles Hernandez,Corporate
+148,NAMI-10148,Nancy Miller,Home Office
+149,KEJO-10149,Ken Johnson,Consumer
+150,KAAL-10150,Karen Allen,Consumer
+151,SUDA-10151,Susan Davis,Corporate
+152,JAGO-10152,James Gonzalez,Corporate
+153,CHBL-10153,Charles Black,Consumer
+154,LICO-10154,Lisa Connell,Consumer
+155,PAGO-10155,Paul Gonzalez,Consumer
+156,NALE-10156,Nancy Lewis,Corporate
+157,STRA-10157,Steven Ramirez,Consumer
+158,SUKI-10158,Susan Kint,Home Office
+159,PAHA-10159,Patricia Harris,Consumer
+160,KEJO-10160,Ken Jones,Consumer
+161,DOLO-10161,Dorothy Lopez,Consumer
+162,SABR-10162,Sandra Brown,Corporate
+163,MALO-10163,Matt Lopez,Corporate
+164,WILE-10164,William Lewis,Corporate
+165,TRHA-10165,Tracy Harris,Corporate
+166,ELLE-10166,Elizabeth Lee,Home Office
+167,ROBR-10167,Robert Brown,Consumer
+168,MAWH-10168,Matthew White,Corporate
+169,JEWI-10169,Jessica Wilson,Consumer
+170,GEMO-10170,Gene Moore,Consumer
+171,STHO-10171,Steven Hoffmann,Corporate
+172,MAMO-10172,Maria Moore,Corporate
+173,ANMI-10173,Anthony Miller,Consumer
+174,KISM-10174,Kimberly Smith,Corporate
+175,LICO-10175,Linda Connell,Consumer
+176,ANSM-10176,Andrew Smith,Home Office
+177,ANKI-10177,Anthony Kint,Consumer
+178,BEPE-10178,Betty Perez,Consumer
+179,SAMA-10179,Sandra Martinez,Consumer
+180,DAPH-10180,David Phan,Corporate
+181,CLDO-10181,Claire Donatelli,Corporate
+182,LIBL-10182,Linda Blumstein,Corporate
+183,SAJA-10183,Sandra Jackson,Consumer
+184,DASM-10184,Daniel Smith,Home Office
+185,KEAN-10185,Ken Anderson,Consumer
+186,JERA-10186,Jessica Ramirez,Corporate
+187,DAWH-10187,Daniel White,Consumer
+188,KIWI-10188,Kimberly Wilson,Corporate
+189,ASMO-10189,Ashley Moore,Consumer
+190,DAWI-10190,Daniel Wilson,Home Office
+191,STTH-10191,Steven Thomas,Consumer
+192,KISM-10192,Kimberly Smith,Home Office
+193,STJA-10193,Steven Jackson,Consumer
+194,DAWI-10194,David Williams,Consumer
+195,PABR-10195,Paul Brown,Consumer
+196,PAGA-10196,Patricia Garcia,Home Office
+197,ALFL-10197,Alejandro Flanagan,Consumer
+198,WIRO-10198,William Robinson,Consumer
+199,GEKI-10199,Gene Kint,Consumer
+200,PAMA-10200,Patricia Martin,Consumer
+201,HAHA-10201,Harold Hara,Home Office
+202,WITH-10202,William Thompson,Home Office
+203,BRPE-10203,Brosina Perez,Consumer
+204,CLDA-10204,Claire Davis,Consumer
+205,WILO-10205,William Lopez,Corporate
+206,STMA-10206,Steven Martin,Corporate
+207,LITA-10207,Linda Taylor,Consumer
+208,SUTA-10208,Susan Taylor,Consumer
+209,PARA-10209,Patricia Ramirez,Corporate
+210,ELHO-10210,Elizabeth Hoffmann,Home Office
+211,SAHA-10211,Sandra Harris,Corporate
+212,ELTH-10212,Elizabeth Thompson,Corporate
+213,BRSA-10213,Brosina Savely,Corporate
+214,SAAN-10214,Sandra Anderson,Consumer
+215,KAMA-10215,Karen Martinez,Consumer
+216,JEGA-10216,Jessica Garcia,Consumer
+217,WIWI-10217,William Williams,Corporate
+218,RIJO-10218,Richard Johnson,Home Office
+219,THHO-10219,Thomas Hoffman,Corporate
+220,HADA-10220,Harold Davis,Consumer
+221,PECL-10221,Pete Clark,Consumer
+222,BRSM-10222,Brosina Smith,Consumer
+223,BRHA-10223,Brosina Harris,Consumer
+224,SATH-10224,Sandra Thomas,Corporate
+225,LIHA-10225,Lisa Hara,Consumer
+226,KARO-10226,Karen Rodriguez,Consumer
+227,MAWA-10227,Margaret Walker,Consumer
+228,ERJO-10228,Eric Jones,Consumer
+229,BRJO-10229,Brosina Jones,Corporate
+230,WIHE-10230,William Hernandez,Home Office
+231,MAKI-10231,Matt Kint,Corporate
+232,BESM-10232,Betty Smith,Consumer
+233,ROLE-10233,Robert Lewis,Corporate
+234,KEPE-10234,Ken Perez,Corporate
+235,MIMA-10235,Michael Martin,Consumer
+236,BAKI-10236,Barbara Kint,Consumer
+237,PAGU-10237,Patricia Gute,Home Office
+238,SADO-10238,Sarah Donatelli,Consumer
+239,BASA-10239,Barbara Sanchez,Home Office
+240,JEWA-10240,Jessica Walker,Consumer
+241,TRJA-10241,Tracy Jackson,Home Office
+242,STHA-10242,Steven Harris,Corporate
+243,NATH-10243,Nancy Thomas,Consumer
+244,ASTH-10244,Ashley Thompson,Consumer
+245,DASA-10245,David Savely,Consumer
+246,JOSM-10246,Joseph Smith,Corporate
+247,LIHA-10247,Lisa Harris,Corporate
+248,PAHO-10248,Patricia Hoffman,Consumer
+249,JABL-10249,James Blumstein,Consumer
+250,MIJO-10250,Michael Johnson,Consumer
+251,MARO-10251,Margaret Robinson,Home Office
+252,DAGU-10252,Daniel Gute,Consumer
+253,MASA-10253,Matt Savely,Consumer
+254,RITA-10254,Richard Taylor,Corporate
+255,DARO-10255,David Robinson,Consumer
+256,PATA-10256,Paul Taylor,Consumer
+257,BRSA-10257,Brosina Savely,Consumer
+258,ELRO-10258,Elizabeth Robinson,Consumer
+259,DOTH-10259,Dorothy Thompson,Consumer
+260,DAJA-10260,Daniel Jackson,Consumer
+261,STLE-10261,Steven Lee,Consumer
+262,SAAN-10262,Sandra Anderson,Consumer
+263,KACA-10263,Karen Cacioppo,Consumer
+264,MAGA-10264,Matt Garcia,Consumer
+265,NARO-10265,Nancy Robinson,Consumer
+266,GETH-10266,Gene Thomas,Consumer
+267,MAJA-10267,Matthew Jackson,Corporate
+268,ZUCO-10268,Zuschuss Connell,Consumer
+269,BABL-10269,Barbara Blumstein,Consumer
+270,PAMA-10270,Paul Martin,Consumer
+271,ANPA-10271,Andrew Pawlan,Corporate
+272,SAFL-10272,Sandra Flanagan,Corporate
+273,KITA-10273,Kimberly Taylor,Consumer
+274,CLPE-10274,Claire Perez,Consumer
+275,THWI-10275,Thomas Wilson,Consumer
+276,HAJO-10276,Harold Johnson,Home Office
+277,THBL-10277,Thomas Black,Home Office
+278,ELTA-10278,Elizabeth Taylor,Consumer
+279,BELE-10279,Betty Lewis,Consumer
+280,EMPE-10280,Emily Perez,Home Office
+281,ALSM-10281,Alejandro Smith,Consumer
+282,KILO-10282,Kimberly Lopez,Corporate
+283,ANCA-10283,Anthony Cacioppo,Corporate
+284,WIWI-10284,William Wilson,Home Office
+285,ROTH-10285,Robert Thompson,Home Office
+286,ROPE-10286,Robert Perez,Corporate
+287,ANDO-10287,Anthony Donatelli,Home Office
+288,GESA-10288,Gene Sanchez,Consumer
+289,DOSA-10289,Dorothy Savely,Consumer
+290,TRLE-10290,Tracy Lee,Consumer
+291,CLLO-10291,Claire Lopez,Consumer
+292,MATH-10292,Margaret Thomas,Consumer
+293,LIBR-10293,Linda Brown,Corporate
+294,SAAN-10294,Sandra Anderson,Consumer
+295,LIJO-10295,Linda Johnson,Corporate
+296,BETH-10296,Betty Thompson,Corporate
+297,MAGO-10297,Matt Gonzalez,Consumer
+298,LICL-10298,Linda Clark,Consumer
+299,STPH-10299,Steven Phan,Consumer
+300,ERJO-10300,Eric Jones,Corporate
+301,LIBR-10301,Lisa Brown,Consumer
+302,JERO-10302,Jessica Robinson,Consumer
+303,ELWI-10303,Elizabeth Williams,Consumer
+304,SAWI-10304,Sarah Wilson,Consumer
+305,ANGO-10305,Andrew Gonzalez,Corporate
+306,MAJO-10306,Margaret Johnson,Consumer
+307,LILE-10307,Linda Lewis,Home Office
+308,LITH-10308,Lisa Thompson,Home Office
+309,KILE-10309,Kimberly Lewis,Home Office
+310,LIAL-10310,Lisa Allen,Corporate
+311,TRTH-10311,Tracy Thomas,Consumer
+312,JOWI-10312,Joseph Williams,Consumer
+313,MAGO-10313,Matthew Gonzalez,Corporate
+314,SASA-10314,Sarah Savely,Consumer
+315,RIMI-10315,Richard Miller,Consumer
+316,ZUHO-10316,Zuschuss Hoffmann,Consumer
+317,SATA-10317,Sandra Taylor,Consumer
+318,ELLE-10318,Elizabeth Lee,Consumer
+319,ALGA-10319,Alejandro Garcia,Consumer
+320,KEHE-10320,Ken Hernandez,Home Office
+321,CLRA-10321,Claire Ramirez,Home Office
+322,JELO-10322,Jessica Lopez,Consumer
+323,CHRO-10323,Christopher Rodriguez,Corporate
+324,SASA-10324,Sarah Sanchez,Consumer
+325,HAHA-10325,Harold Hara,Consumer
+326,SABR-10326,Sandra Brown,Consumer
+327,SATA-10327,Sandra Taylor,Consumer
+328,BEWH-10328,Betty White,Corporate
+329,PAHO-10329,Paul Hoffmann,Consumer
+330,CLLE-10330,Claire Lee,Consumer
+331,LIBL-10331,Linda Black,Consumer
+332,KECL-10332,Ken Clark,Home Office
+333,SAWA-10333,Sarah Walker,Consumer
+334,PAWI-10334,Paul Williams,Consumer
+335,THTH-10335,Thomas Thomas,Consumer
+336,DAPH-10336,Daniel Phan,Consumer
+337,MAMO-10337,Margaret Moore,Corporate
+338,SAKI-10338,Sandra Kint,Consumer
+339,RIMI-10339,Richard Miller,Home Office
+340,CHWI-10340,Charles Williams,Home Office
+341,MAJO-10341,Maria Jones,Home Office
+342,MARA-10342,Matthew Ramirez,Consumer
+343,EMWI-10343,Emily Wilson,Corporate
+344,MIMI-10344,Michael Miller,Corporate
+345,NAMA-10345,Nancy Martinez,Consumer
+346,JACO-10346,James Connell,Home Office
+347,DAPE-10347,David Perez,Consumer
+348,RIAL-10348,Richard Allen,Consumer
+349,THWA-10349,Thomas Walker,Home Office
+350,WIMA-10350,William Martinez,Home Office
+351,DOPH-10351,Donald Phan,Consumer
+352,ANFL-10352,Andrew Flanagan,Consumer
+353,MAMI-10353,Matthew Miller,Home Office
+354,JODO-10354,Joseph Donatelli,Corporate
+355,JEGU-10355,Jessica Gute,Corporate
+356,RICL-10356,Richard Clark,Home Office
+357,PETH-10357,Pete Thomas,Corporate
+358,KAMI-10358,Karen Miller,Corporate
+359,ELCL-10359,Elizabeth Clark,Consumer
+360,PALE-10360,Patricia Lewis,Home Office
+361,WIGA-10361,William Garcia,Corporate
+362,KITA-10362,Kimberly Taylor,Home Office
+363,ANHA-10363,Andrew Harris,Consumer
+364,BELE-10364,Betty Lewis,Home Office
+365,LISA-10365,Linda Savely,Consumer
+366,ZUSA-10366,Zuschuss Sanchez,Corporate
+367,ZUWI-10367,Zuschuss Wilson,Consumer
+368,ROHO-10368,Robert Hoffman,Consumer
+369,HABR-10369,Harold Brown,Consumer
+370,SUPH-10370,Susan Phan,Consumer
+371,RIPE-10371,Richard Perez,Corporate
+372,TRHO-10372,Tracy Hoffmann,Consumer
+373,ANMA-10373,Anthony Martinez,Corporate
+374,DATA-10374,David Taylor,Home Office
+375,EMCA-10375,Emily Cacioppo,Consumer
+376,KAAN-10376,Karen Anderson,Consumer
+377,CLAN-10377,Claire Anderson,Home Office
+378,MAMA-10378,Mark Martin,Consumer
+379,JODA-10379,Joseph Davis,Home Office
+380,ROSA-10380,Robert Sanchez,Home Office
+381,SAJO-10381,Sandra Johnson,Consumer
+382,ROCO-10382,Robert Connell,Home Office
+383,THDO-10383,Thomas Donatelli,Consumer
+384,LIDA-10384,Lisa Davis,Corporate
+385,SABR-10385,Sandra Brown,Consumer
+386,DOHE-10386,Dorothy Hernandez,Consumer
+387,LILE-10387,Lisa Lewis,Corporate
+388,HAWH-10388,Harold White,Corporate
+389,MACA-10389,Maria Cacioppo,Corporate
+390,MICA-10390,Michael Cacioppo,Corporate
+391,ANJO-10391,Anthony Johnson,Corporate
+392,ASRA-10392,Ashley Ramirez,Corporate
+393,SASA-10393,Sandra Sanchez,Consumer
+394,BECL-10394,Betty Clark,Consumer
+395,JOAL-10395,Joseph Allen,Corporate
+396,ASFL-10396,Ashley Flanagan,Consumer
+397,MAGA-10397,Maria Garcia,Corporate
+398,TRCO-10398,Tracy Connell,Consumer
+399,NARO-10399,Nancy Rodriguez,Corporate
+400,STHO-10400,Steven Hoffmann,Consumer
+401,THBR-10401,Thomas Brown,Corporate
+402,PABL-10402,Patricia Black,Consumer
+403,PEPH-10403,Pete Phan,Corporate
+404,LILE-10404,Linda Lewis,Corporate
+405,ELLE-10405,Elizabeth Lee,Consumer
+406,ELGU-10406,Elizabeth Gute,Consumer
+407,KEAN-10407,Ken Anderson,Consumer
+408,STLE-10408,Steven Lewis,Consumer
+409,WISA-10409,William Sanchez,Home Office
+410,ZULE-10410,Zuschuss Lewis,Consumer
+411,BRHA-10411,Brosina Harris,Home Office
+412,DAGA-10412,Daniel Garcia,Home Office
+413,LICL-10413,Linda Clark,Consumer
+414,JERO-10414,Jessica Robinson,Consumer
+415,RIBL-10415,Richard Black,Consumer
+416,ANJO-10416,Andrew Jones,Home Office
+417,KEDO-10417,Ken Donatelli,Consumer
+418,NAFL-10418,Nancy Flanagan,Consumer
+419,BARA-10419,Barbara Ramirez,Home Office
+420,SAMA-10420,Sandra Martin,Consumer
+421,STPH-10421,Steven Phan,Home Office
+422,DODO-10422,Donald Donatelli,Home Office
+423,ANLO-10423,Anthony Lopez,Home Office
+424,STAL-10424,Steven Allen,Corporate
+425,GEWI-10425,Gene Wilson,Consumer
+426,DARO-10426,David Rodriguez,Consumer
+427,MARO-10427,Mark Rodriguez,Corporate
+428,DODA-10428,Donald Davis,Consumer
+429,STCO-10429,Steven Connell,Home Office
+430,JESA-10430,Jessica Savely,Corporate
+431,DOSA-10431,Donald Sanchez,Corporate
+432,BRPA-10432,Brosina Pawlan,Corporate
+433,DAFL-10433,David Flanagan,Corporate
+434,GEKI-10434,Gene Kint,Home Office
+435,DAHA-10435,Daniel Hara,Corporate
+436,LIMI-10436,Linda Miller,Corporate
+437,MAGU-10437,Margaret Gute,Consumer
+438,EMFL-10438,Emily Flanagan,Corporate
+439,TRBL-10439,Tracy Black,Corporate
+440,BRFL-10440,Brosina Flanagan,Consumer
+441,DATH-10441,David Thompson,Consumer
+442,TRJO-10442,Tracy Johnson,Consumer
+443,STLO-10443,Steven Lopez,Corporate
+444,STKI-10444,Steven Kint,Consumer
+445,BAMO-10445,Barbara Moore,Corporate
+446,JOMO-10446,Joseph Moore,Consumer
+447,ANAL-10447,Anthony Allen,Corporate
+448,DOJA-10448,Dorothy Jackson,Consumer
+449,DOHO-10449,Donald Hoffman,Consumer
+450,THHE-10450,Thomas Hernandez,Consumer
+451,ZUTA-10451,Zuschuss Taylor,Corporate
+452,JOKI-10452,Joseph Kint,Home Office
+453,JAWH-10453,James White,Consumer
+454,SAWI-10454,Sandra Williams,Corporate
+455,MALE-10455,Matthew Lee,Corporate
+456,WIWH-10456,William White,Corporate
+457,JEMO-10457,Jessica Moore,Corporate
+458,ZURO-10458,Zuschuss Robinson,Consumer
+459,DOCL-10459,Donald Clark,Home Office
+460,DAHA-10460,Daniel Hara,Consumer
+461,LILO-10461,Linda Lopez,Consumer
+462,JEHE-10462,Jessica Hernandez,Consumer
+463,ZUGA-10463,Zuschuss Garcia,Consumer
+464,DOJO-10464,Dorothy Johnson,Consumer
+465,EMLE-10465,Emily Lewis,Home Office
+466,PESA-10466,Pete Savely,Home Office
+467,ALGO-10467,Alejandro Gonzalez,Consumer
+468,STRO-10468,Steven Rodriguez,Corporate
+469,DAPA-10469,Daniel Pawlan,Corporate
+470,DALE-10470,Daniel Lee,Consumer
+471,KELO-10471,Ken Lopez,Consumer
+472,DOGO-10472,Dorothy Gonzalez,Home Office
+473,ASPA-10473,Ashley Pawlan,Home Office
+474,MAJO-10474,Margaret Jones,Consumer
+475,LIMO-10475,Lisa Moore,Consumer
+476,DOTH-10476,Dorothy Thomas,Consumer
+477,ZUDA-10477,Zuschuss Davis,Home Office
+478,BABL-10478,Barbara Black,Corporate
+479,LICA-10479,Lisa Cacioppo,Corporate
+480,DAHA-10480,Daniel Harris,Corporate
+481,DOLE-10481,Donald Lee,Consumer
+482,DORO-10482,Dorothy Robinson,Consumer
+483,TRWI-10483,Tracy Williams,Corporate
+484,ROMI-10484,Robert Miller,Consumer
+485,TRPH-10485,Tracy Phan,Corporate
+486,ELKI-10486,Elizabeth Kint,Consumer
+487,BEHO-10487,Betty Hoffman,Consumer
+488,CHHA-10488,Christopher Hara,Consumer
+489,JEMI-10489,Jessica Miller,Consumer
+490,ROGA-10490,Robert Garcia,Corporate
+491,LIWH-10491,Lisa White,Consumer
+492,HAPH-10492,Harold Phan,Consumer
+493,ANPA-10493,Anthony Pawlan,Corporate
+494,STWI-10494,Steven Wilson,Corporate
+495,SAWH-10495,Sarah White,Consumer
+496,STHA-10496,Steven Hara,Corporate
+497,KEDA-10497,Ken Davis,Consumer
+498,MALE-10498,Maria Lewis,Corporate
+499,SAJA-10499,Sarah Jackson,Corporate
+500,ANCA-10500,Andrew Cacioppo,Consumer
+501,MAPA-10501,Margaret Pawlan,Consumer
+502,ROHA-10502,Robert Hara,Corporate
+503,KIJO-10503,Kimberly Johnson,Consumer
+504,KEGU-10504,Ken Gute,Consumer
+505,SUBL-10505,Susan Blumstein,Consumer
+506,NAWA-10506,Nancy Walker,Consumer
+507,DARA-10507,Daniel Ramirez,Corporate
+508,PEHE-10508,Pete Hernandez,Home Office
+509,ANGO-10509,Andrew Gonzalez,Consumer
+510,PEGA-10510,Pete Garcia,Corporate
+511,LIHE-10511,Lisa Hernandez,Corporate
+512,RIBR-10512,Richard Brown,Consumer
+513,BRGA-10513,Brosina Garcia,Consumer
+514,ANAN-10514,Anthony Anderson,Home Office
+515,BASA-10515,Barbara Savely,Consumer
+516,ZUSM-10516,Zuschuss Smith,Consumer
+517,ELJA-10517,Elizabeth Jackson,Consumer
+518,ROMI-10518,Robert Miller,Consumer
+519,ERKI-10519,Eric Kint,Consumer
+520,KEJA-10520,Ken Jackson,Consumer
+521,MIDA-10521,Michael Davis,Corporate
+522,DOPH-10522,Donald Phan,Consumer
+523,EMJO-10523,Emily Johnson,Consumer
+524,MAPH-10524,Margaret Phan,Corporate
+525,DOKI-10525,Donald Kint,Consumer
+526,BETA-10526,Betty Taylor,Consumer
+527,LITH-10527,Lisa Thompson,Consumer
+528,LICL-10528,Lisa Clark,Corporate
+529,ANGA-10529,Anthony Garcia,Home Office
+530,BEGA-10530,Betty Garcia,Consumer
+531,PETH-10531,Pete Thomas,Consumer
+532,ROWI-10532,Robert Williams,Corporate
+533,MIMO-10533,Michael Moore,Consumer
+534,JEWI-10534,Jessica Wilson,Consumer
+535,BABR-10535,Barbara Brown,Consumer
+536,ALHA-10536,Alejandro Harris,Corporate
+537,WIAN-10537,William Anderson,Corporate
+538,STAL-10538,Steven Allen,Consumer
+539,LICL-10539,Lisa Clark,Consumer
+540,MATH-10540,Margaret Thomas,Consumer
+541,HAWI-10541,Harold Wilson,Consumer
+542,PAWA-10542,Patricia Walker,Consumer
+543,DOBL-10543,Donald Blumstein,Consumer
+544,PAWI-10544,Paul Wilson,Home Office
+545,CHJA-10545,Christopher Jackson,Corporate
+546,BARO-10546,Barbara Rodriguez,Home Office
+547,WILO-10547,William Lopez,Corporate
+548,MAWH-10548,Mark White,Consumer
+549,BECL-10549,Betty Clark,Consumer
+550,PADO-10550,Patricia Donatelli,Corporate
+551,WIBR-10551,William Brown,Consumer
+552,DOWH-10552,Dorothy White,Home Office
+553,PASA-10553,Patricia Savely,Corporate
+554,EMDA-10554,Emily Davis,Consumer
+555,DORO-10555,Donald Robinson,Corporate
+556,SAWH-10556,Sandra White,Corporate
+557,ALJO-10557,Alejandro Jones,Corporate
+558,DOMI-10558,Donald Miller,Corporate
+559,DORO-10559,Dorothy Robinson,Home Office
+560,STLE-10560,Steven Lewis,Home Office
+561,ALCL-10561,Alejandro Clark,Corporate
+562,CHRO-10562,Charles Rodriguez,Consumer
+563,ROBL-10563,Robert Blumstein,Home Office
+564,PATA-10564,Patricia Taylor,Consumer
+565,SAPH-10565,Sandra Phan,Consumer
+566,ZUMO-10566,Zuschuss Moore,Corporate
+567,STJA-10567,Steven Jackson,Consumer
+568,PAHA-10568,Patricia Harris,Consumer
+569,WIPH-10569,William Phan,Consumer
+570,SAHA-10570,Sandra Harris,Corporate
+571,ERWI-10571,Eric Wilson,Consumer
+572,BALE-10572,Barbara Lewis,Corporate
+573,JOHA-10573,Joseph Harris,Consumer
+574,STWI-10574,Steven Wilson,Consumer
+575,DAJO-10575,David Jones,Home Office
+576,THCO-10576,Thomas Connell,Consumer
+577,LIWI-10577,Lisa Wilson,Consumer
+578,MAMA-10578,Maria Martinez,Consumer
+579,RIHO-10579,Richard Hoffmann,Corporate
+580,MAFL-10580,Margaret Flanagan,Home Office
+581,HACL-10581,Harold Clark,Consumer
+582,BALE-10582,Barbara Lee,Home Office
+583,PAJA-10583,Paul Jackson,Home Office
+584,MASA-10584,Maria Savely,Corporate
+585,STWI-10585,Steven Wilson,Home Office
+586,EMGO-10586,Emily Gonzalez,Consumer
+587,LIWI-10587,Linda Wilson,Home Office
+588,BRLO-10588,Brosina Lopez,Consumer
+589,CHRO-10589,Charles Rodriguez,Consumer
+590,ALRO-10590,Alejandro Rodriguez,Consumer
+591,JADO-10591,James Donatelli,Home Office
+592,DOMI-10592,Donald Miller,Corporate
+593,SAAL-10593,Sandra Allen,Consumer
+594,THRO-10594,Thomas Robinson,Home Office
+595,KIWA-10595,Kimberly Walker,Consumer
+596,ANGU-10596,Anthony Gute,Home Office
+597,BRJO-10597,Brosina Johnson,Consumer
+598,EMLE-10598,Emily Lee,Home Office
+599,MAJA-10599,Margaret Jackson,Consumer
+600,MASM-10600,Maria Smith,Consumer
+601,HASM-10601,Harold Smith,Consumer
+602,ANAN-10602,Anthony Anderson,Consumer
+603,SAWH-10603,Sarah White,Corporate
+604,BEMO-10604,Betty Moore,Corporate
+605,PAPH-10605,Paul Phan,Consumer
+606,CLHA-10606,Claire Harris,Consumer
+607,LILO-10607,Lisa Lopez,Consumer
+608,DOSA-10608,Dorothy Savely,Corporate
+609,BAKI-10609,Barbara Kint,Home Office
+610,NAMO-10610,Nancy Moore,Corporate
+611,CHLE-10611,Charles Lee,Consumer
+612,THAL-10612,Thomas Allen,Corporate
+613,BAJO-10613,Barbara Johnson,Corporate
+614,MIKI-10614,Michael Kint,Consumer
+615,ASRA-10615,Ashley Ramirez,Corporate
+616,MAMI-10616,Matthew Miller,Consumer
+617,MIMA-10617,Michael Martin,Consumer
+618,DOBL-10618,Donald Blumstein,Home Office
+619,MAAN-10619,Mark Anderson,Home Office
+620,THSA-10620,Thomas Sanchez,Consumer
+621,SAKI-10621,Sandra Kint,Corporate
+622,JEAL-10622,Jessica Allen,Consumer
+623,ANCO-10623,Andrew Connell,Home Office
+624,JAJO-10624,James Jones,Consumer
+625,NATH-10625,Nancy Thomas,Consumer
+626,KICL-10626,Kimberly Clark,Consumer
+627,MIPA-10627,Michael Pawlan,Home Office
+628,PAWI-10628,Patricia Williams,Consumer
+629,BAGO-10629,Barbara Gonzalez,Home Office
+630,STWI-10630,Steven Wilson,Home Office
+631,WIMI-10631,William Miller,Home Office
+632,SARO-10632,Sarah Robinson,Consumer
+633,CHWI-10633,Christopher Williams,Corporate
+634,ASGO-10634,Ashley Gonzalez,Consumer
+635,MABL-10635,Margaret Blumstein,Corporate
+636,JADO-10636,James Donatelli,Consumer
+637,DOBR-10637,Dorothy Brown,Consumer
+638,MAWA-10638,Margaret Walker,Consumer
+639,SAWI-10639,Sandra Wilson,Consumer
+640,ANDA-10640,Andrew Davis,Corporate
+641,SUWI-10641,Susan Williams,Corporate
+642,HAKI-10642,Harold Kint,Corporate
+643,ELRO-10643,Elizabeth Rodriguez,Consumer
+644,STLE-10644,Steven Lewis,Consumer
+645,BRPH-10645,Brosina Phan,Home Office
+646,MAWI-10646,Mark Wilson,Consumer
+647,PESM-10647,Pete Smith,Corporate
+648,BARO-10648,Barbara Rodriguez,Consumer
+649,LIAL-10649,Lisa Allen,Corporate
+650,MAWI-10650,Mark Wilson,Home Office
+651,BAWI-10651,Barbara Wilson,Corporate
+652,LIFL-10652,Lisa Flanagan,Corporate
+653,ELGA-10653,Elizabeth Garcia,Corporate
+654,DABL-10654,David Black,Consumer
+655,TRTA-10655,Tracy Taylor,Consumer
+656,DABL-10656,Daniel Black,Consumer
+657,KAWA-10657,Karen Walker,Consumer
+658,ANBR-10658,Anthony Brown,Corporate
+659,SACO-10659,Sarah Connell,Consumer
+660,PEWI-10660,Pete Wilson,Consumer
+661,PAWI-10661,Paul Wilson,Home Office
+662,MAGA-10662,Mark Garcia,Corporate
+663,PAKI-10663,Paul Kint,Corporate
+664,MAJO-10664,Maria Jones,Home Office
+665,PAWA-10665,Paul Walker,Home Office
+666,BEBL-10666,Betty Blumstein,Corporate
+667,CHCA-10667,Charles Cacioppo,Consumer
+668,MAFL-10668,Matt Flanagan,Consumer
+669,SAHO-10669,Sarah Hoffman,Consumer
+670,LIRO-10670,Lisa Rodriguez,Consumer
+671,DAFL-10671,Daniel Flanagan,Corporate
+672,ALKI-10672,Alejandro Kint,Consumer
+673,PATH-10673,Paul Thomas,Corporate
+674,RIPE-10674,Richard Perez,Consumer
+675,JACL-10675,James Clark,Consumer
+676,JELE-10676,Jessica Lewis,Consumer
+677,SALE-10677,Sandra Lee,Corporate
+678,TRFL-10678,Tracy Flanagan,Consumer
+679,HABL-10679,Harold Black,Consumer
+680,ROHO-10680,Robert Hoffmann,Consumer
+681,PACA-10681,Paul Cacioppo,Consumer
+682,CHBR-10682,Christopher Brown,Home Office
+683,KACO-10683,Karen Connell,Corporate
+684,DAWI-10684,Daniel Williams,Consumer
+685,ROHA-10685,Robert Harris,Corporate
+686,CHCL-10686,Charles Clark,Consumer
+687,MAPH-10687,Matthew Phan,Consumer
+688,ANWH-10688,Anthony White,Consumer
+689,LIAL-10689,Lisa Allen,Home Office
+690,BRSA-10690,Brosina Savely,Consumer
+691,DOPE-10691,Donald Perez,Consumer
+692,GEPE-10692,Gene Perez,Consumer
+693,BEHO-10693,Betty Hoffman,Consumer
+694,BEMA-10694,Betty Martin,Consumer
+695,ROTH-10695,Robert Thomas,Consumer
+696,MAHE-10696,Mark Hernandez,Consumer
+697,PERO-10697,Pete Robinson,Consumer
+698,JOLO-10698,Joseph Lopez,Consumer
+699,GEMI-10699,Gene Miller,Corporate
+700,JAWA-10700,James Walker,Consumer
+701,MIHE-10701,Michael Hernandez,Consumer
+702,BAMO-10702,Barbara Moore,Corporate
+703,JASM-10703,James Smith,Consumer
+704,STWI-10704,Steven Wilson,Consumer
+705,ZUPA-10705,Zuschuss Pawlan,Consumer
+706,WIHA-10706,William Harris,Consumer
+707,ERGA-10707,Eric Garcia,Home Office
+708,ASGA-10708,Ashley Garcia,Consumer
+709,ERTA-10709,Eric Taylor,Home Office
+710,JETA-10710,Jessica Taylor,Home Office
+711,SAHO-10711,Sarah Hoffman,Consumer
+712,ELMO-10712,Elizabeth Moore,Consumer
+713,DAHA-10713,David Hara,Corporate
+714,HAPA-10714,Harold Pawlan,Consumer
+715,MACL-10715,Margaret Clark,Corporate
+716,MAMA-10716,Maria Martin,Consumer
+717,ZUGO-10717,Zuschuss Gonzalez,Consumer
+718,KARO-10718,Karen Rodriguez,Corporate
+719,BAAL-10719,Barbara Allen,Consumer
+720,LILE-10720,Lisa Lee,Consumer
+721,DABR-10721,Daniel Brown,Consumer
+722,CHWI-10722,Charles Wilson,Corporate
+723,STHA-10723,Steven Harris,Corporate
+724,KEFL-10724,Ken Flanagan,Home Office
+725,ELRO-10725,Elizabeth Rodriguez,Corporate
+726,PALE-10726,Patricia Lee,Home Office
+727,KIPH-10727,Kimberly Phan,Consumer
+728,CHHE-10728,Charles Hernandez,Consumer
+729,ANAL-10729,Andrew Allen,Consumer
+730,PATH-10730,Patricia Thomas,Consumer
+731,EMWH-10731,Emily White,Home Office
+732,SAGA-10732,Sandra Garcia,Home Office
+733,JAHO-10733,James Hoffmann,Consumer
+734,ANJO-10734,Anthony Jones,Corporate
+735,CHMO-10735,Charles Moore,Corporate
+736,PAPE-10736,Paul Perez,Consumer
+737,BRRO-10737,Brosina Rodriguez,Consumer
+738,KELO-10738,Ken Lopez,Corporate
+739,ASRO-10739,Ashley Robinson,Corporate
+740,MATH-10740,Margaret Thomas,Consumer
+741,DOTH-10741,Donald Thompson,Corporate
+742,ASPA-10742,Ashley Pawlan,Corporate
+743,ERJA-10743,Eric Jackson,Corporate
+744,ANMA-10744,Anthony Martinez,Consumer
+745,MASM-10745,Mark Smith,Consumer
+746,SABL-10746,Sandra Black,Consumer
+747,JOGA-10747,Joseph Garcia,Consumer
+748,RIRO-10748,Richard Robinson,Consumer
+749,CHHA-10749,Charles Harris,Home Office
+750,STPA-10750,Steven Pawlan,Corporate
+751,CHHA-10751,Christopher Hara,Corporate
+752,DOTH-10752,Dorothy Thomas,Corporate
+753,JABL-10753,James Blumstein,Consumer
+754,NAMI-10754,Nancy Miller,Corporate
+755,MALE-10755,Mark Lewis,Corporate
+756,SAJO-10756,Sandra Johnson,Corporate
+757,MASM-10757,Matt Smith,Consumer
+758,ROCA-10758,Robert Cacioppo,Home Office
+759,ROBR-10759,Robert Brown,Corporate
+760,SAWA-10760,Sandra Walker,Consumer
+761,THDA-10761,Thomas Davis,Corporate
+762,ASWI-10762,Ashley Williams,Consumer
+763,LILE-10763,Lisa Lewis,Corporate
+764,ELDA-10764,Elizabeth Davis,Home Office
+765,EMBR-10765,Emily Brown,Consumer
+766,PASA-10766,Paul Savely,Consumer
+767,JOCL-10767,Joseph Clark,Consumer
+768,THHA-10768,Thomas Hara,Consumer
+769,NAWI-10769,Nancy Williams,Home Office
+770,SAWI-10770,Sandra Williams,Consumer
+771,ANTH-10771,Anthony Thompson,Consumer
+772,HARA-10772,Harold Ramirez,Home Office
+773,LISA-10773,Linda Sanchez,Consumer
+774,ZULO-10774,Zuschuss Lopez,Consumer
+775,THDO-10775,Thomas Donatelli,Corporate
+776,SAGU-10776,Sandra Gute,Home Office
+777,ERLO-10777,Eric Lopez,Corporate
+778,THTH-10778,Thomas Thomas,Corporate
+779,KIBR-10779,Kimberly Brown,Consumer
+780,DOPA-10780,Donald Pawlan,Home Office
+781,ALCL-10781,Alejandro Clark,Corporate
+782,NAAL-10782,Nancy Allen,Home Office
+783,TRLO-10783,Tracy Lopez,Home Office
+784,TRAL-10784,Tracy Allen,Home Office
+785,ELTA-10785,Elizabeth Taylor,Consumer
+786,STBR-10786,Steven Brown,Home Office
+787,CLJO-10787,Claire Jones,Corporate
+788,ZUMI-10788,Zuschuss Miller,Consumer
+789,DOMA-10789,Donald Martin,Corporate
+790,SAMO-10790,Sandra Moore,Consumer
+791,MABL-10791,Matt Black,Consumer
+792,ASAN-10792,Ashley Anderson,Corporate
+793,PABL-10793,Paul Blumstein,Consumer
